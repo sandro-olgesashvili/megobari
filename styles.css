@@ -1021,6 +1021,10 @@ body {
   display: none;
 }
 
+.order-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 415px) {
   .header-nav {
     display: none;
@@ -1042,6 +1046,7 @@ body {
     max-width: 414px;
     padding: 0;
     background-color: #f5fdff;
+    padding-bottom: 28px;
   }
   .section-main-images h2 {
     font-size: 25px;
@@ -1064,6 +1069,7 @@ body {
     justify-content: center;
     padding-left: 17px;
     padding-right: 14px;
+    padding-top: 13px;
   }
   .section-main-magic-second-image {
     display: none;
@@ -1145,7 +1151,8 @@ body {
 
   .section-second {
     max-width: 414px;
-    margin-top: 28px;
+    margin:0;
+    /* margin-top: 28px; */
   }
 
   .section-second-header-item:last-child {
@@ -1177,7 +1184,7 @@ body {
   }
   .section-second-header {
     height: 101px;
-    padding: 11px 60px 11px 60px;
+    padding: 11px 79px 11px 79px;
   }
   .section-second-main {
     padding: 19px 18px 63px 16px;
@@ -1196,11 +1203,14 @@ body {
   }
   .section-second-main-items {
     flex-direction: column;
+    align-items: center;
   }
   .order1 {
     order: 2;
   }
-
+  .order1 .section-second-main-item-image-container {
+    top: 25px;
+  }
   .section-third {
     max-width: 414px;
   }
@@ -1273,5 +1283,73 @@ body {
   .see-all-faq {
     margin-top: 25px;
     justify-content: center;
+    margin-bottom: 24px;
+  }
+  .section-second-main-item-second-popular {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .section-second-main-item-second-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section-second-main-item-second-title-span {
+    font-size: 24px;
+  }
+  .section-second-main-item-second-price {
+    font-size: 25px;
+  }
+  .section-second-main-item-second-price-old {
+    font-size: 25px;
+  }
+  .section-second-main-item-second-install {
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .section-second-main-item-second-save-money-orders {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .section-second-main-item-shipping {
+    display: none;
+  }
+  .section-second-main-item-money-back {
+    display: none;
+  }
+  .section-second-main-item-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .section-second-main-item-price {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .section-second-main-item-install {
+    margin-bottom: 23px;
+  }
+  .section-second-main-item-second-price-old::after {
+    width: 100%;
+  }
+  .section-second-main-item-second-price-span {
+    display: none;
+  }
+  .order-mobile {
+    display: inline;
+    margin-right: 7px;
   }
 }
