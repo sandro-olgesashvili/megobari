@@ -699,7 +699,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block: 11px 14px;
   font-size: 13px;
   font-weight: 800;
   line-height: 17px;
@@ -940,6 +939,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.section-second-main-item-second-save-money-orders-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 11px 14px;
 }
 
 .section-faq-question-answer {
