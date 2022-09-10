@@ -1025,6 +1025,10 @@ body {
   display: none;
 }
 
+.dots {
+  display: none;
+}
+
 @media screen and (max-width: 415px) {
   .header-nav {
     display: none;
@@ -1351,5 +1355,32 @@ body {
   .order-mobile {
     display: inline;
     margin-right: 7px;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+  }
+
+  .dot {
+    width: 14px;
+    height: 14px;
+    background-color:#CBCED6 ;
+    border-radius:50%;
+    cursor: pointer;
+  }
+
+  .active-dot {
+    background-color: #197AFF;
+  }
+  .section-third-commnets {
+    justify-content: center;
+    align-items: center;
+  }
+  .section-third-commnet {
+    display: none;
   }
 }
